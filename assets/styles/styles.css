@@ -1,0 +1,237 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 5rem;
+}
+header{
+    background-color:#40867d;
+}
+div a{
+   color: white !important;
+}
+div a:hover{
+    color: #E0E7E9 !important;
+}
+body{
+    background-color: #E0E7E9!important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icono{
+    width: 2rem;
+}
+.carousel-item{
+    height: 20rem;
+    object-fit:contain;
+}
+div h3{
+    opacity: 0.9 ;
+    color: white;
+    
+}
+.search-categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #5DA399 !important;
+    color: white !important;
+}
+.boton{
+    background-color: #FF6B6B;
+    color:white;
+    border-radius: 5px;
+    border: 2px solid #FF6B6B;
+    text-decoration: none;
+    padding: 0.3rem;
+}
+.card-title, .card-text{
+    color:#004840 !important; 
+    margin-left: 5px;
+}
+
+.container-card{
+    padding: 5px!important;
+
+}
+.card{
+    width: 17rem!important;
+    height: 28rem;
+}
+
+.image-card{
+    height: 15rem !important;
+    width: auto;
+    object-fit: cover;
+}
+.card-body{
+    height: 12rem;
+    display: flex ;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.price-details{
+    height: 6rem !important;
+
+}
+.card{
+    height: 26rem!important;
+}
+footer{
+    background-color:#40867d;
+    height: 3rem;
+}
+.form{
+    background-color: #d6dddf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 25rem;
+    border-radius: 5px;
+    color: #333333;
+}
+.submit{
+    background-color:#40867d;
+    color: #E0E7E9;
+    border-radius: 5px;
+    border: 2px solid #40867d;
+}
+.submit:hover{
+    background-color: #004840;
+    color: #E0E7E9;
+    border: 2px solid #004840;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #004840;
+    background-color:#40867d;
+    color:#004840 ;
+  }
+  td {
+    border: 1px solid #004840;
+    padding: 15px;
+    background-color:#d6dddf;
+  }
+.img-fluid{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.horizontal-card{
+    width: 40rem;
+    height: 26rem;
+    background-color: #5DA399;
+}
+.contenedor-details{
+    display: flex;
+    flex-direction: row;
+    padding: 6rem;
+}
+.cont-details{
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    color: #E0E7E9 !important;
+}
+span {
+    font-weight: bold;
+}
+.margin{
+    margin: 35px 0 0 6px;
+    height: 13rem!important;
+    width: 18rem !important;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+    .image-card{
+        width: 17rem ;
+        height: 13rem ;
+    }
+    .card{
+        width: 17rem;
+   
+    }
+    .search-categories{
+    display: flex;
+    flex-direction: column !important;
+  }
+    .container-check{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+  .contenedor-details{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.img-fluid{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.cont-details{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 20rem!important;
+}
+.details{
+    font-size: 13px;
+}
+.margin{
+    margin: 10px 0 0 6px;
+    height: 13rem!important;
+    width: 18rem !important;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .image-card{
+        width: 17rem !important;
+        height: 13rem !important;
+    }
+    .card{
+        width: 17rem !important;
+   
+    }
+  .search-categories{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .container-check{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+  .contenedor-details{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.img-fluid{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.cont-details{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 20rem!important;
+}
+.details{
+    font-size: 13px;
+}
+.margin{
+    margin: 10px 0 0 6px;
+    height: 13rem!important;
+    width: 18rem !important;
+}
+}
+

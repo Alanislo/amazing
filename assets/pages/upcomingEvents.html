@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/styles.css" type="text/css">
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="../images/amazing_brand.png" alt="logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active " href="./upcomingEvents.html">
+                  Upcoming Events
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pastEvents.html">Past Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./stats.html">Stats</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--Carousel-->
+  <div class="carrusel container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="../images/optional_banner_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>HOME</h2>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="../images/optional_banner_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>UPCOMING EVENTS</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../images/optional_banner_3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/optional_banner_4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--Search and categories-->
+  <div class="container pt-4 search-categories mt-1">
+    <div class="container-fluid container-check">
+      <form class="d-flex flex-row justify-content-start container-check" action="/action_page.php">
+         <div class="check">
+           <input class="ms-3" type="checkbox" id="category1" name="category1" value="costume_party">
+          <label for="category1"> Costume Party</label>
+         </div>
+         <div class="check">
+           <input class="ms-3" type="checkbox" id="category2" name="category2" value="music_concert">
+          <label for="category2"> Music Concert</label>
+         </div>
+         <div class="check">
+           <input class="ms-3" type="checkbox" id="category3" name="category3" value="race">
+          <label for="category3"> Race</label>
+         </div>
+         <div class="check">
+           <input class="ms-3" type="checkbox" id="category4" name="category4" value="book">
+          <label for="category4"> Book Exchange</label>
+         </div>
+         <div class="check">
+           <input class="ms-3" type="checkbox" id="category5" name="category5" value="Boat">
+          <label for="category5"> Let's go to the cinema</label>
+         </div>
+      </form>
+    </div>
+    <!--Search-->
+    <div>
+      <form class="d-flex mt-1" role="search">
+        <input class="form-control me-2" type="search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  <!--Cards-->
+  <div id="contenedor" class=" contenedor container-card container d-flex flex-wrap ">
+    
+  </div>
+  <!--Footer-->
+  <footer class="d-flex justify-content-between align-items-center p-2">
+    <div>
+      <a href=""><img class="icono" src="../images/facebook.png" alt=""></a>
+      <a href=""><img class="icono" src="../images/instagram.png" alt=""></a>
+      <a href=""><img class="icono" src="../images/whatsapp.png" alt=""></a>
+    </div>
+    <div>
+      <p>COHORT-49 </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/upcomingEvents.js"></script>
+</body>
+
+</html>
