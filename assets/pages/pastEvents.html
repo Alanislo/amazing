@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,35 +88,13 @@
     </div>
   </div>
   <!--Search and categories-->
-  <div class="container pt-4 search-categories mt-1">
-    <div class="container-fluid container-check">
-      <form class="d-flex flex-row justify-content-start container-check" action="/action_page.php">
-         <div class="check">
-           <input class="ms-3" type="checkbox" id="category1" name="category1" value="costume_party">
-          <label for="category1"> Costume Party</label>
-         </div>
-         <div class="check">
-           <input class="ms-3" type="checkbox" id="category2" name="category2" value="music_concert">
-          <label for="category2"> Music Concert</label>
-         </div>
-         <div class="check">
-           <input class="ms-3" type="checkbox" id="category3" name="category3" value="race">
-          <label for="category3"> Race</label>
-         </div>
-         <div class="check">
-           <input class="ms-3" type="checkbox" id="category4" name="category4" value="book">
-          <label for="category4"> Book Exchange</label>
-         </div>
-         <div class="check">
-           <input class="ms-3" type="checkbox" id="category5" name="category5" value="Boat">
-          <label for="category5"> Let's go to the cinema</label>
-         </div>
-      </form>
+  <div id="checkbox" class="container pt-4 search-categories mt-1">
+    <div id="container-check" class="container-fluid container-check d-flex flex-row gap-2">
     </div>
     <!--Search-->
-    <div>
+    <div id="contenedor-search">
       <form class="d-flex mt-1" role="search">
-        <input class="form-control me-2" type="search" aria-label="Search">
+        <input id="search" class="form-control me-2" type="search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
