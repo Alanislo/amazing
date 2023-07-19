@@ -112,6 +112,8 @@ table {
     border: 1px solid #004840;
     background-color:#40867d;
     color:#004840 ;
+
+    
   }
   td {
     border: 1px solid #004840;
@@ -147,6 +149,10 @@ span {
     margin: 35px 0 0 6px;
     height: 13rem!important;
     width: 18rem !important;
+}
+.table-strong{
+    font-weight: bold;
+    color: #004840;
 }
 @media only screen and (min-width:320px) and (max-width:767px){
     .image-card{
